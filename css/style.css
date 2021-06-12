@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+:root{
+    --theme-font:'Nunito', sans-serif;
+    --theme-bg-color: #4d90ca
+}
+html{
+    font-family: var(--theme-font);
+}
+.aboutus{
+    background-color: var(--theme-bg-color);
+    color: bisque;
+}
+#services{
+    background-color: var(--theme-bg-color);
+    color: bisque;
+}
+li{
+    list-style-type: none;
+}
+footer{
+    background-color: bisque;
+    height: 200px;
+    color: var(--theme-bg-color);
+}
