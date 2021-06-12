@@ -5,6 +5,7 @@
 }
 html{
     font-family: var(--theme-font);
+    scroll-behavior: smooth;
 }
 .aboutus{
     background-color: var(--theme-bg-color);
@@ -21,4 +22,13 @@ footer{
     background-color: bisque;
     height: 200px;
     color: var(--theme-bg-color);
+}
+.inblock{
+    background-color: #4d90ca85;
+    color: bisque;
+    padding: 36px;
+    position: absolute;
+    z-index: +1;
+    top: 44%;
+    left:20%;
 }
