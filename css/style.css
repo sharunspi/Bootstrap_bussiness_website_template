@@ -32,3 +32,24 @@ footer{
     top: 44%;
     left:20%;
 }
+video:hover{
+    box-shadow: 0 4px 8px 0 rgba(221, 243, 240, 0.2);
+    transform: scale(1.005);
+}
+video{
+    transform:300ms ease-out-in;
+}
+.feature-card{
+    transform:300ms ease-out-in;
+}
+.feature-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(165, 230, 230, 0.2);
+    transform: scale(1.01);
+}
+.list-element{
+    transform:1000ms ease-out-in;
+    cursor: pointer;
+}
+.list-element:hover{
+    transform: scale(1.05);
+}
